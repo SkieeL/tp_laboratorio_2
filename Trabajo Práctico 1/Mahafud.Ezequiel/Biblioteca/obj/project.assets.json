@@ -3711,11 +3711,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TP1\\Mahafud.Ezequiel\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Trabajo Práctico 1\\Mahafud.Ezequiel\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\TP1\\Mahafud.Ezequiel\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Trabajo Práctico 1\\Mahafud.Ezequiel\\Biblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\TP1\\Mahafud.Ezequiel\\Biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Trabajo Práctico 1\\Mahafud.Ezequiel\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

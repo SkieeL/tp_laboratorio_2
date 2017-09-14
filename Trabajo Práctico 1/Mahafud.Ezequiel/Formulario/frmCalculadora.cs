@@ -13,7 +13,9 @@ namespace Formulario
 {
     public partial class frmCalculadora : Form
     {
-
+        /// <summary>
+        /// Constructor por defecto del formulario contenedor de la calculadora.
+        /// </summary>
         public frmCalculadora() {
             InitializeComponent();
 
@@ -26,6 +28,11 @@ namespace Formulario
             this.cmbOperacion.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
+        /// <summary>
+        /// Toma los valores de los campos de texto, los mete en objetos de tipo Numero, opera con ellos y escribe el resultado en el Label.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void operar(object sender, EventArgs e) {
             Numero numero1 = new Numero(txtNumero1.Text);
             Numero numero2 = new Numero(txtNumero2.Text);
@@ -36,6 +43,11 @@ namespace Formulario
             this.lblResultado.Text = resultado.ToString();
         }
 
+        /// <summary>
+        /// Establece los valores por defecto en el label, en los campos de texto y en el combo box.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void limpiar(object sender, EventArgs e) {
             this.lblResultado.Text = "Ingrese operandos";
             this.txtNumero1.Text = "";

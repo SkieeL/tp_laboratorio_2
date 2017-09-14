@@ -13,3 +13,11 @@ C:\Users\Usuario\Desktop\TP1\Mahafud.Ezequiel\Biblioteca\obj\Debug\netstandard1.
 C:\Users\Usuario\Desktop\TP1\Mahafud.Ezequiel\Biblioteca\obj\Debug\netstandard1.4\Biblioteca.AssemblyInfo.cs
 C:\Users\Usuario\Desktop\TP1\Mahafud.Ezequiel\Biblioteca\obj\Debug\netstandard1.4\Biblioteca.dll
 C:\Users\Usuario\Desktop\TP1\Mahafud.Ezequiel\Biblioteca\obj\Debug\netstandard1.4\Biblioteca.pdb
+C:\Users\Usuario\Desktop\Trabajo Práctico 1\Mahafud.Ezequiel\Biblioteca\bin\Debug\netstandard1.4\Biblioteca.deps.json
+C:\Users\Usuario\Desktop\Trabajo Práctico 1\Mahafud.Ezequiel\Biblioteca\bin\Debug\netstandard1.4\Biblioteca.dll
+C:\Users\Usuario\Desktop\Trabajo Práctico 1\Mahafud.Ezequiel\Biblioteca\bin\Debug\netstandard1.4\Biblioteca.pdb
+C:\Users\Usuario\Desktop\Trabajo Práctico 1\Mahafud.Ezequiel\Biblioteca\obj\Debug\netstandard1.4\Biblioteca.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Trabajo Práctico 1\Mahafud.Ezequiel\Biblioteca\obj\Debug\netstandard1.4\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Trabajo Práctico 1\Mahafud.Ezequiel\Biblioteca\obj\Debug\netstandard1.4\Biblioteca.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Trabajo Práctico 1\Mahafud.Ezequiel\Biblioteca\obj\Debug\netstandard1.4\Biblioteca.dll
+C:\Users\Usuario\Desktop\Trabajo Práctico 1\Mahafud.Ezequiel\Biblioteca\obj\Debug\netstandard1.4\Biblioteca.pdb
