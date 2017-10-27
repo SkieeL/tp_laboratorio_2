@@ -1,0 +1,15 @@
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.exe.config
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.exe
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.pdb
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesAbstractas.dll
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesInstanciables.dll
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Excepciones.dll
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Archivos.dll
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesInstanciables.pdb
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Excepciones.pdb
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Archivos.pdb
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.exe
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.pdb

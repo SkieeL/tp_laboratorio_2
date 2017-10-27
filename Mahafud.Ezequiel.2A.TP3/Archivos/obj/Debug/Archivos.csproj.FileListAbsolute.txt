@@ -1,0 +1,6 @@
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\bin\Debug\Archivos.dll
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\obj\Debug\Archivos.dll
+C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\obj\Debug\Archivos.pdb
