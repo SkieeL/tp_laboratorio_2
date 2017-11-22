@@ -35,14 +35,6 @@ namespace TestsUnitarios
             catch (Exception e) {
                 Assert.IsInstanceOfType(e, typeof(DniInvalidoException));
             }
-
-            try {
-                Alumno alumno = new Alumno(1, "Ezequiel", "Mahafud", "38999220", Persona.ENacionalidad.Argentino, Universidad.EClases.Laboratorio);
-                alumno.StringToDNI = "DNI";
-            }
-            catch (Exception e) {
-                Assert.IsInstanceOfType(e, typeof(DniInvalidoException));
-            }
         }
 
         [TestMethod]

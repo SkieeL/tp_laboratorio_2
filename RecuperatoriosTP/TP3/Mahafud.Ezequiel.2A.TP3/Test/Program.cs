@@ -5,13 +5,21 @@ using System.Text;
 using System.Threading.Tasks;
 using EntidadesInstanciables;
 using Excepciones;
+using TestsUnitarios;
 
 namespace Test
 {
     public class Program
     {
         static void Main(string[] args) {
-            Universidad gim = new Universidad();
+            UnitTest testUnitario = new UnitTest();
+
+            testUnitario.validaDniInvalidoException();
+            testUnitario.validaNacionalidadInvalidaException();
+            testUnitario.validaValoresNulos();
+            testUnitario.validaValorNumerico();
+
+            /*Universidad gim = new Universidad();
 
             Alumno a1 = new Alumno(1, "Juan", "Lopez", "12234456", EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion, Alumno.EEstadoCuenta.Becado);
             gim += a1;
@@ -96,7 +104,7 @@ namespace Test
                 Console.WriteLine(e.Message);
             }
 
-            Console.ReadKey();
+            Console.ReadKey();*/
         }
     }
 }

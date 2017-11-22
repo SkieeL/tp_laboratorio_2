@@ -109,21 +109,17 @@ namespace EntidadesAbstractas
         /// <param name="dato">Dato a validar.</param>
         /// <returns>DNI validado.</returns>
         private int ValidarDni(ENacionalidad nacionalidad, string dato) {
-            int dni;
+            int dni = 0;
 
             try {
-                if (!int.TryParse(dato, out dni))
+                if (!(int.TryParse(dato, out dni)))
                     throw new DniInvalidoException("El DNI únicamente debe contener números");
-                else {
-                    if (nacionalidad == ENacionalidad.Argentino && (dni < 1 || dni > 89999999))
-                        throw new DniInvalidoException("La nacionalidad no se coincide con el número de DNI");
-                }
+                else
+                    dni = this.ValidarDni(nacionalidad, dni);
             }
             catch (DniInvalidoException e) {
                 Console.WriteLine(e.Message);
             }
-
-            dni = int.Parse(dato);
 
             return dni;
         }
