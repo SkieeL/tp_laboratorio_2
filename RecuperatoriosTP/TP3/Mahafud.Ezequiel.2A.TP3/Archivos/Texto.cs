@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Excepciones;
 
 namespace Archivos
 {
@@ -16,10 +17,15 @@ namespace Archivos
         /// <param name="datos">Información a guardar.</param>
         /// <returns></returns>
         public bool guardar(string archivo, string datos) {
-            StreamWriter escritura = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + archivo, false, Encoding.UTF8);
+            try {
+                StreamWriter escritura = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + archivo, true, Encoding.UTF8);
 
-            escritura.WriteLine(datos);
-            escritura.Close();
+                escritura.WriteLine(datos);
+                escritura.Close();
+            }
+            catch (Exception e) {
+                throw new ArchivosException(e);
+            }
 
             return true;
         }
@@ -31,10 +37,15 @@ namespace Archivos
         /// <param name="datos">Variable de salida donde se almacenará la información leída.</param>
         /// <returns></returns>
         public bool leer(string archivo, out string datos) {
-            StreamReader lectura = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + archivo, Encoding.UTF8);
+            try {
+                StreamReader lectura = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + archivo, Encoding.UTF8);
 
-            datos = lectura.ReadToEnd();
-            lectura.Close();
+                datos = lectura.ReadToEnd();
+                lectura.Close();
+            }
+            catch (Exception e) {
+                throw new ArchivosException(e);
+            }
 
             return true;
         }

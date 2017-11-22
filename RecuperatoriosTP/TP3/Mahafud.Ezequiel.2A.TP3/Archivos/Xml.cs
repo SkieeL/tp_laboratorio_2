@@ -17,11 +17,16 @@ namespace Archivos
         /// <param name="datos">Información a serializar.</param>
         /// <returns></returns>
         public bool guardar(string archivo, T datos) {
-            TextWriter escritura = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + archivo);
-            XmlSerializer serializador = new XmlSerializer(typeof(T));
+            try {
+                TextWriter escritura = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + archivo);
+                XmlSerializer serializador = new XmlSerializer(typeof(T));
 
-            serializador.Serialize(escritura, datos);
-            escritura.Close();
+                serializador.Serialize(escritura, datos);
+                escritura.Close();
+            }
+            catch (Exception e) {
+                throw new ArgumentException(e);
+            }
 
             return true;
         }
@@ -33,11 +38,16 @@ namespace Archivos
         /// <param name="datos">Variable de salida donde se guardará la información deserializada.</param>
         /// <returns></returns>
         public bool leer(string archivo, out T datos) {
-            TextReader lectura = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + archivo);
-            XmlSerializer serializador = new XmlSerializer(typeof(T));
+            try {
+                TextReader lectura = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + archivo);
+                XmlSerializer serializador = new XmlSerializer(typeof(T));
 
-            datos = (T)serializador.Deserialize(lectura);
-            lectura.Close();
+                datos = (T)serializador.Deserialize(lectura);
+                lectura.Close();
+            }
+            catch (Exception e) {
+                throw new ArgumentException(e);
+            }
 
             return true;
         }

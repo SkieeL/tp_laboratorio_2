@@ -46,12 +46,11 @@ namespace TestsUnitarios
 
         [TestMethod]
         public void validaValoresNulos() {
-            Alumno alumno = new Alumno(1, "Ezequiel", "Mahafud", "38999220", Persona.ENacionalidad.Argentino, Universidad.EClases.Laboratorio);
+            Universidad universidad = new Universidad();
 
-            Assert.IsNotNull(alumno.Nombre);
-            Assert.IsNotNull(alumno.Apellido);
-            Assert.IsNotNull(alumno.DNI);
-            Assert.IsNotNull(alumno.Nacionalidad);
+            Assert.IsNotNull(universidad.Alumnos);
+            Assert.IsNotNull(universidad.Instructores);
+            Assert.IsNotNull(universidad.Jornadas);
         }
     }
 }
