@@ -1,0 +1,12 @@
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\bin\Release\EntidadesInstanciables.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\bin\Release\EntidadesInstanciables.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\bin\Release\Archivos.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\bin\Release\EntidadesAbstractas.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\bin\Release\Excepciones.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\bin\Release\Archivos.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\bin\Release\EntidadesAbstractas.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\bin\Release\Excepciones.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\obj\Release\EntidadesInstanciables.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\obj\Release\EntidadesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\obj\Release\EntidadesInstanciables.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesInstanciables\obj\Release\EntidadesInstanciables.pdb

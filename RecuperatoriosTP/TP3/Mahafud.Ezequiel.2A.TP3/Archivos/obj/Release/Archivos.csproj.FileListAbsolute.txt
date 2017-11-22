@@ -1,0 +1,5 @@
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\bin\Release\Archivos.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\bin\Release\Archivos.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\obj\Release\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\obj\Release\Archivos.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Archivos\obj\Release\Archivos.pdb
