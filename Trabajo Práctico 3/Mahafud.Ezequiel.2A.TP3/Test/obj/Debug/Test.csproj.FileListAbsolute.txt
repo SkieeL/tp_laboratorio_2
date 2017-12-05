@@ -13,3 +13,83 @@ C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.csprojResolveAsse
 C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
 C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.exe
 C:\Users\c\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.exe.config
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.exe
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesInstanciables.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Excepciones.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Archivos.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesInstanciables.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Excepciones.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Archivos.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.exe
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\TestsUnitarios.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\TestsUnitarios.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.exe.config
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.exe
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.pdb
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesAbstractas.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesInstanciables.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\mscorlib.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\System.Net.Http.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\TestsUnitarios.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Archivos.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesInstanciables.pdb
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\TestsUnitarios.pdb
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\System.Net.Http.xml
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Archivos.pdb
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\normidna.nlp
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\normnfc.nlp
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\normnfd.nlp
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\normnfkc.nlp
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\normnfkd.nlp
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.exe
+C:\Users\alumno\Desktop\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.pdb
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.exe.config
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.exe
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Test.pdb
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesAbstractas.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesInstanciables.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Excepciones.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\TestsUnitarios.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Archivos.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\EntidadesInstanciables.pdb
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Excepciones.pdb
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\TestsUnitarios.pdb
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Archivos.pdb
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.exe
+C:\Users\c\Documents\GitHub\tp_laboratorio_2\Trabajo Práctico 3\Mahafud.Ezequiel.2A.TP3\Test\obj\Debug\Test.pdb

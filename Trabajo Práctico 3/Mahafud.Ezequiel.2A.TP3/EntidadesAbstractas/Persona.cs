@@ -44,10 +44,26 @@ namespace EntidadesAbstractas
             set { this._dni = this.ValidarDni(this._nacionalidad, value); }
         }
 
+        /// <summary>
+        /// Constructor por defecto.
+        /// </summary>
         public Persona() : this("", "", 1, ENacionalidad.Argentino) { }
 
+        /// <summary>
+        /// Primer sobrecarga, constructor parametrizado.
+        /// </summary>
+        /// <param name="nombre">Nombre para la persona.</param>
+        /// <param name="apellido">Apellido para la persona.</param>
+        /// <param name="nacionalidad">Nacionalidad para la persona.</param>
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad) : this(nombre, apellido, 1, nacionalidad) { }
 
+        /// <summary>
+        /// Segunda sobrecarga, constructor parametrizado.
+        /// </summary>
+        /// <param name="nombre">Nombre para la persona.</param>
+        /// <param name="apellido">Apellido para la persona.</param>
+        /// <param name="dni">DNI para la persona.</param>
+        /// <param name="nacionalidad">Nacionalidad para la persona.</param>
         public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad) {
             this.Nombre = nombre;
             this.Apellido = apellido;
@@ -55,14 +71,29 @@ namespace EntidadesAbstractas
             this.DNI = dni;
         }
 
+        /// <summary>
+        /// Tercer sobrecarga, constructor parametrizado.
+        /// </summary>
+        /// <param name="nombre">Nombre para la persona.</param>
+        /// <param name="apellido">Apellido para la persona.</param>
+        /// <param name="dni">DNI para la persona.</param>
+        /// <param name="nacionalidad">Nacionalidad para la persona.</param>
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad) {
             this.StringToDNI = dni;
         }
 
+        /// <summary>
+        /// Valida si un DNI en formato int cumple con el rango correspondiente de un ciudadano argentino.
+        /// </summary>
+        /// <param name="nacionalidad">Nacionalidad.</param>
+        /// <param name="dato">DNI a validar.</param>
+        /// <returns>DNI validado.</returns>
         private int ValidarDni(ENacionalidad nacionalidad, int dato) {
             try {
-                if (nacionalidad == ENacionalidad.Argentino && (dato < 1 || dato > 89999999))
-                    throw new DniInvalidoException("La nacionalidad no se coincide con el número de DNI");
+                if (dato < 1)
+                    throw new DniInvalidoException("El DNI no puede ser menor a 1");
+                else if (nacionalidad == ENacionalidad.Argentino && dato > 89999999)
+                    throw new NacionalidadInvalidaException("La nacionalidad no se coincide con el número de DNI");
             }
             catch (DniInvalidoException e) {
                 Console.WriteLine(e.Message);
@@ -71,35 +102,46 @@ namespace EntidadesAbstractas
             return dato;
         }
 
+        /// <summary>
+        /// Valida si un DNI en formato string cumple con el rango correspondiente de un ciudadano argentino.
+        /// </summary>
+        /// <param name="nacionalidad">Nacionalidad.</param>
+        /// <param name="dato">Dato a validar.</param>
+        /// <returns>DNI validado.</returns>
         private int ValidarDni(ENacionalidad nacionalidad, string dato) {
-            int dni;
+            int dni = 0;
 
             try {
-                if (!int.TryParse(dato, out dni))
+                if (!(int.TryParse(dato, out dni)))
                     throw new DniInvalidoException("El DNI únicamente debe contener números");
-                else {
-                    if (nacionalidad == ENacionalidad.Argentino && (dni < 1 || dni > 89999999))
-                        throw new DniInvalidoException("La nacionalidad no se coincide con el número de DNI");
-                }
+                else
+                    dni = this.ValidarDni(nacionalidad, dni);
             }
             catch (DniInvalidoException e) {
                 Console.WriteLine(e.Message);
             }
-
-            dni = int.Parse(dato);
 
             return dni;
         }
 
+        /// <summary>
+        /// Valida que un string posea únicamente letras.
+        /// </summary>
+        /// <param name="dato">String a validar.</param>
+        /// <returns>String validado, en caso de que no contenga únicamente letras devuelve una cadena vacía.</returns>
         private string ValidarNombreApellido(string dato) {
-            Regex rgx = new Regex(@"[\W0-9]");
-
-            if (rgx.IsMatch(dato))
-                return "";
+            for (int i = 0; i < dato.Length; i++) {
+                if (!char.IsLetter(dato[i]))
+                    return "";
+            }
 
             return dato;
         }
 
+        /// <summary>
+        /// Devuelve todos los datos de la persona.
+        /// </summary>
+        /// <returns>Datos de la persona en formato string.</returns>
         public override string ToString() {
             StringBuilder retorno = new StringBuilder();
 

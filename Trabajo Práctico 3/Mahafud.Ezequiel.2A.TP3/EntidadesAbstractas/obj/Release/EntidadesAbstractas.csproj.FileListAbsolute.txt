@@ -1,0 +1,8 @@
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesAbstractas\bin\Release\EntidadesAbstractas.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesAbstractas\bin\Release\EntidadesAbstractas.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesAbstractas\bin\Release\Excepciones.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesAbstractas\bin\Release\Excepciones.pdb
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesAbstractas\obj\Release\EntidadesAbstractas.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesAbstractas\obj\Release\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesAbstractas\obj\Release\EntidadesAbstractas.dll
+C:\Users\Usuario\Desktop\Mahafud.Ezequiel.2A.TP3\EntidadesAbstractas\obj\Release\EntidadesAbstractas.pdb

@@ -13,18 +13,36 @@ namespace EntidadesInstanciables
         private Queue<EClases> _clasesDelDia;
         private static Random _random;
 
+
+        /// <summary>
+        /// Constructor estático por defecto, inicializa la propiedad random.
+        /// </summary>
         static Profesor() {
             Profesor._random = new Random();
         }
 
+        /// <summary>
+        /// Constructor por defecto.
+        /// </summary>
         public Profesor() : this(1, "", "", "1", ENacionalidad.Argentino) { }
 
+        /// <summary>
+        /// Constructor parametrizado, primera sobrecarga.
+        /// </summary>
+        /// <param name="id">Identificador del profesor.</param>
+        /// <param name="nombre">Nombre del profesor.</param>
+        /// <param name="apellido">Apellido del profesor.</param>
+        /// <param name="dni">DNI del profesor.</param>
+        /// <param name="nacionalidad">Nacionalidad del profesor.</param>
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad)
          : base(id, nombre, apellido, dni, nacionalidad) {
             this._clasesDelDia = new Queue<EClases>();
             this._randomClases();
         }
 
+        /// <summary>
+        /// Le asigna aleatoriamente una clase del día a un profesor.
+        /// </summary>
         private void _randomClases() {
             int numero;
 
@@ -48,6 +66,10 @@ namespace EntidadesInstanciables
             }
         }
 
+        /// <summary>
+        /// Devuelve todos los datos del profesor.
+        /// </summary>
+        /// <returns>Retorna todos los datos del profesor en formato string.</returns>
         protected override string MostrarDatos() {
             StringBuilder retorno = new StringBuilder();
 
@@ -59,6 +81,12 @@ namespace EntidadesInstanciables
             return retorno.ToString();
         }
 
+        /// <summary>
+        /// Verifica si un profesor puede dar una clase.
+        /// </summary>
+        /// <param name="i">Profesor en cuestión.</param>
+        /// <param name="clase">Clase a verificar si puede ser dada por el profesor.</param>
+        /// <returns>Si la clase puede ser impartida por el profesor retorna true, caso contrario devuelve false.</returns>
         public static bool operator ==(Profesor i, EClases clase) {
             if (i._clasesDelDia.First() == clase || i._clasesDelDia.Last() == clase)
                 return true;
@@ -66,6 +94,12 @@ namespace EntidadesInstanciables
             return false;
         }
 
+        /// <summary>
+        /// Verifica si un profesor no puede dar una clase.
+        /// </summary>
+        /// <param name="i">Profesor en cuestión.</param>
+        /// <param name="clase">Clase a verificar si no puede ser dada por el profesor.</param>
+        /// <returns>Si la clase no puede ser impartida por el profesor retorna true, caso contrario devuelve false.</returns>
         public static bool operator !=(Profesor i, EClases clase) {
             if (!(i == clase))
                 return true;
@@ -73,6 +107,10 @@ namespace EntidadesInstanciables
             return false;
         }
 
+        /// <summary>
+        /// Devuelve las clases que puede dar un profesor.
+        /// </summary>
+        /// <returns>Retorna las clases que puede dar un profesor en formato string.</returns>
         protected override string ParticiparEnClase() {
             StringBuilder retorno = new StringBuilder();
 
@@ -82,6 +120,10 @@ namespace EntidadesInstanciables
             return retorno.ToString();
         }
 
+        /// <summary>
+        /// Sobreescribe el método ToString mostrando todos los datos del profesor.
+        /// </summary>
+        /// <returns>Retorna todos los datos del profesor en formato string.</returns>
         public override string ToString() {
             return this.MostrarDatos();
         }

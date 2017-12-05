@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Xml.Serialization;
+using Excepciones;
 
 namespace Archivos
 {
@@ -25,7 +26,7 @@ namespace Archivos
                 escritura.Close();
             }
             catch (Exception e) {
-                throw new ArgumentException(e);
+                throw new ArchivosException(e);
             }
 
             return true;
@@ -46,7 +47,7 @@ namespace Archivos
                 lectura.Close();
             }
             catch (Exception e) {
-                throw new ArgumentException(e);
+                throw new ArchivosException(e);
             }
 
             return true;
